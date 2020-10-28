@@ -1,0 +1,90 @@
+﻿*{
+  box-sizing:  border-box;
+  margin: 0;
+  padding: 0;
+}
+body, html{
+  height:100%;
+}
+header{
+  background: black;
+  text-align: center;   
+  color: green; 
+  padding-top: 65px;
+  padding-bottom: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+overflow: hidden;
+background-color: white;
+}
+.topnav a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+margin-right: 50px;
+}
+.topnav a:hover {
+background-color: red;
+color: black;
+}
+.topnav a.active {
+background-color: white;
+color: black;
+}
+.topnav-right {
+float: right;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  background-color: green;
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 50%;
+  left: 0;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: space normal; ;
+}
+.copy{
+    color: white;
+    background-color:darkblue;
+    height: 80px;
+    padding-top: 40px;
+    padding-left: 59px;
+}
